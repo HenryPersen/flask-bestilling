@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Forside{% endblock %}
+
+{% block content %}
+
+<h1>Bestill Her</h1>
+
+<form method="POST">
+    <div id="produkt1" class="produkt">
+        <label>Produkt 1</label>
+        <img >
+        <input type="number" id="produkt1num" name="produkt1num">
+    </div>
+    <div id="produkt2" class="produkt">
+        <label>Produkt 2</label>
+        <img >
+        <input type="number" id="produkt2num" name="produkt2num">
+    </div>
+    <div id="produkt3" class="produkt">
+        <label>Produkt 3</label>
+        <img >
+        <input type="number" id="produkt3num" name="produkt3num">
+    </div>
+    <div id="produkt4" class="produkt">
+        <label>Produkt 4</label>
+        <img >
+        <input type="number" id="produkt4num" name="produkt4num">
+    </div>
+    <button type="submit">Submit</button>
+    
+</form>
+
+{% endblock %}
